@@ -1,9 +1,9 @@
 package com.ocean.shopping.shoppinguser.service.impl;
 
 
-import com.ocean.shopping.shoppinguser.bean.UserMembers;
+import com.ocean.shopping.bean.UserMembers;
+import com.ocean.shopping.service.UserService;
 import com.ocean.shopping.shoppinguser.mapper.UserMapper;
-import com.ocean.shopping.shoppinguser.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

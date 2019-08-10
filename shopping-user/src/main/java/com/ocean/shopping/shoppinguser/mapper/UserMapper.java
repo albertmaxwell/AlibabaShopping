@@ -1,6 +1,6 @@
 package com.ocean.shopping.shoppinguser.mapper;
 
-import com.ocean.shopping.shoppinguser.bean.UserMembers;
+import com.ocean.shopping.bean.UserMembers;
 import tk.mybatis.mapper.common.Mapper;
 
 

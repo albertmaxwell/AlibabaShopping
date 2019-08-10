@@ -1,8 +1,9 @@
-package com.ocean.shopping.shoppinguser.service;
+package com.ocean.shopping.service;
 
-import com.ocean.shopping.shoppinguser.bean.UserMembers;
+import com.ocean.shopping.bean.UserMembers;
 
 import java.util.List;
+
 
 /**
  * @author 金海洋

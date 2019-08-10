@@ -7,13 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="shopping-apl" />
+        <module name="shopping-common-util" />
         <module name="shopping-parent" />
+        <module name="shopping-service-util" />
         <module name="shopping-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="shopping-apl" target="1.5" />
+      <module name="shopping-apl" target="1.8" />
+      <module name="shopping-common-util" target="1.8" />
       <module name="shopping-parent" target="1.8" />
+      <module name="shopping-service-util" target="1.8" />
       <module name="shopping-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>

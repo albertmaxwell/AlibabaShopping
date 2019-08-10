@@ -3,7 +3,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.ocean.shopping.shoppinguser.mapper.UserMapper">
 
-    <select id="selectAllUser" resultType="com.ocean.shopping.shoppinguser.bean.UserMembers">
+    <select id="selectAllUser" resultType="com.ocean.shopping.bean.UserMembers">
 
         SELECT * FROM user
 </select>

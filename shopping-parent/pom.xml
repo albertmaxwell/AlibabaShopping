@@ -29,11 +29,6 @@
                 <version>2.6.1</version>
             </dependency>
 
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>fastjson</artifactId>
-                <version>1.2.4</version>
-            </dependency>
 
             <!-- https://mvnrepository.com/artifact/com.alibaba/dubbo -->
             <dependency>
@@ -49,6 +44,12 @@
                 <version>3.0.8.RELEASE</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.4</version>
+                <scope>provided</scope>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>

@@ -1,11 +1,12 @@
-package com.ocean.shopping.shoppinguser.bean;
+package com.ocean.shopping.bean;
 
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
 import javax.persistence.*;
+
+
 import java.io.Serializable;
 
 /**

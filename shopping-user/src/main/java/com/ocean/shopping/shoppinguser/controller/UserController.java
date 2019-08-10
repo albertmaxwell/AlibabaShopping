@@ -1,7 +1,7 @@
 package com.ocean.shopping.shoppinguser.controller;
 
-import com.ocean.shopping.shoppinguser.bean.UserMembers;
-import com.ocean.shopping.shoppinguser.service.UserService;
+import com.ocean.shopping.bean.UserMembers;
+import com.ocean.shopping.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
