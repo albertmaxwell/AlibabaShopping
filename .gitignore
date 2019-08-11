@@ -25,3 +25,7 @@ shopping-user-service/mvnw
 .idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_0_RELEASE.xml
 .idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_1_RELEASE.xml
 shopping-parent/pom.xml
+shopping-parent/pom.xml
+shopping-parent/pom.xml
+shopping-service-util/pom.xml
+shopping-web-util/shopping-web-util.iml
