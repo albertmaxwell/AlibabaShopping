@@ -11,6 +11,8 @@
         <module name="shopping-parent" />
         <module name="shopping-service-util" />
         <module name="shopping-user" />
+        <module name="shopping-user-service" />
+        <module name="shopping-user-web" />
         <module name="shopping-web-util" />
       </profile>
     </annotationProcessing>
@@ -20,6 +22,8 @@
       <module name="shopping-parent" target="1.8" />
       <module name="shopping-service-util" target="1.8" />
       <module name="shopping-user" target="1.8" />
+      <module name="shopping-user-service" target="1.8" />
+      <module name="shopping-user-web" target="1.8" />
       <module name="shopping-web-util" target="1.8" />
     </bytecodeTargetLevel>
   </component>

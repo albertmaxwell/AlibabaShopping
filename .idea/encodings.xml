@@ -6,6 +6,8 @@
     <file url="file://$PROJECT_DIR$/shopping-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shopping-service-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shopping-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-user-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shopping-web-util" charset="UTF-8" />
   </component>
 </project>
