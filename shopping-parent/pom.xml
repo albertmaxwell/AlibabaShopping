@@ -6,17 +6,26 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.7.RELEASE</version>
+		<version>1.5.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <groupId>com.ocean.shopping</groupId>
     <artifactId>shopping-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <!--<modules>
+        <module>shopping.apl</module>
+        <module>test-hd-service</module>
+        <module>test-hd-resource</module>
+        <module>test-hd-foundation</module>
+        <module>test-hd-modules</module>
+    </modules>-->
+
 
 
         <dependencies>
-
             <!--swagger接口组件-->
             <dependency>
                 <groupId>io.springfox</groupId>
@@ -38,11 +47,11 @@
             </dependency>
 
             <!-- https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf -->
-            <dependency>
+           <!-- <dependency>
                 <groupId>org.thymeleaf</groupId>
                 <artifactId>thymeleaf</artifactId>
                 <version>3.0.8.RELEASE</version>
-            </dependency>
+            </dependency>-->
 
             <dependency>
                 <groupId>org.projectlombok</groupId>
@@ -54,7 +63,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-autoconfigure</artifactId>
-                <version>2.1.1.RELEASE</version>
+               <!-- <version>2.1.1.RELEASE</version>-->
             </dependency>
 
             <dependency>
@@ -63,11 +72,10 @@
                 <scope>test</scope>
             </dependency>
 
-            <dependency>
+            <!--<dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-autoconfigure</artifactId>
-                <version>2.1.0.RELEASE</version>
-            </dependency>
+            </dependency>-->
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
